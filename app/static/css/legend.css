@@ -1,0 +1,44 @@
+.textarea-styles {
+   width: 100%;
+   background: rgba(31, 41, 55, 0.7);
+   font-size: 0.875rem;
+   color: rgb(209 213 219);
+   font-weight: 500;
+   border: 1px solid rgba(75, 85, 99, 0.5);
+   border-radius: 0.5rem;
+   padding: 0.75rem 1rem;
+   min-height: 38px;
+   line-height: 1.5;
+   resize: none;
+   overflow: hidden;
+   text-align: left;
+   caret-color: white;
+}
+
+.textarea-styles:hover {
+   border-color: rgba(107, 114, 128, 0.7);
+   background: rgba(31, 41, 55, 0.8);
+}
+
+.textarea-styles:focus {
+   outline: none;
+   border-color: rgb(59, 130, 246);
+   background: rgba(31, 41, 55, 0.9);
+   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+
+.legend-item {
+   background: rgba(31, 41, 55, 0.3);
+   border-radius: 0.5rem;
+   padding: 1rem;
+   margin-bottom: 1rem;
+   border: 1px solid rgba(75, 85, 99, 0.2);
+   transition: all 200ms;
+}
+
+.legend-item:hover {
+   background: rgba(31, 41, 55, 0.4);
+   border-color: rgba(75, 85, 99, 0.3);
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}

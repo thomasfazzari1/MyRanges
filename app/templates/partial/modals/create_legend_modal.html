@@ -1,0 +1,36 @@
+<div id="createLegendModal" class="hidden fixed inset-0 flex items-center justify-center z-50">
+    <div class="bg-gray-800 p-6 rounded shadow-lg w-96 relative">
+        <button class="absolute top-2 right-2 text-gray-400 hover:text-white"
+                onclick="document.getElementById('createLegendModal').classList.add('hidden')">
+            <i class="fas fa-times"></i>
+        </button>
+        <h2 class="text-lg font-bold text-blue-400 mb-4">Ajouter un nouvel item de légende</h2>
+
+        <div class="mb-4">
+            <label class="block text-sm text-gray-300 mb-2" for="newLegendColor">Couleur</label>
+            <input id="newLegendColor" type="color" class="w-16 h-8" value="#ff9800">
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm text-gray-300 mb-2" for="newLegendDescription">Description</label>
+            <input id="newLegendDescription" type="text"
+                   class="bg-gray-700 text-gray-300 border border-gray-600 rounded p-2 w-full"
+                   placeholder="Description"/>
+        </div>
+
+        <div class="flex justify-end space-x-2">
+            <button
+                    class="px-4 py-2 bg-gray-700 text-gray-400 hover:text-gray-300 hover:bg-gray-600 rounded-lg transition duration-200 focus:outline-none"
+                    onclick="document.getElementById('createLegendModal').classList.add('hidden')"
+            >
+                Annuler
+            </button>
+            <button
+                    id="saveNewLegendItem"
+                    class="px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded-lg shadow-md transition duration-200 focus:outline-none"
+            >
+                Créer
+            </button>
+        </div>
+    </div>
+</div>

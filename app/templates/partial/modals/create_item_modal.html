@@ -1,0 +1,40 @@
+<div id="createModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="bg-gray-800 p-6 rounded-lg shadow-xl w-96">
+        <h3 class="text-xl font-bold mb-4 text-center">Ajouter un élément</h3>
+        <div class="space-y-4">
+            <div>
+                <div class="flex items-center space-x-4 justify-center">
+                    <button id="typeSection" data-type="container"
+                            class="type-btn flex flex-col items-center justify-center w-20 h-20 rounded-lg bg-gray-700 hover:bg-gray-600 focus:ring-2 focus:ring-blue-500 selected">
+                        <i class="fas fa-folder text-2xl text-gray-400"></i>
+                        <span class="mt-2 text-sm text-gray-300">Section</span>
+                    </button>
+                    <button id="typeRange" data-type="range"
+                            class="type-btn flex flex-col items-center justify-center w-20 h-20 rounded-lg bg-gray-700 hover:bg-gray-600 focus:ring-2 focus:ring-blue-500">
+                        <i class="fas fa-database text-2xl text-gray-400"></i>
+                        <span class="mt-2 text-sm text-gray-300">Range</span>
+                    </button>
+                </div>
+                <input type="hidden" id="itemType" value="container">
+            </div>
+            <div>
+                <label class="block text-sm font-medium mb-1">Nom</label>
+                <input type="text" id="itemName" class="w-full bg-gray-700 rounded px-3 py-2 border-gray-600">
+            </div>
+            <div class="flex justify-end space-x-3">
+                <button
+                        id="cancelCreate"
+                        class="px-4 py-2 bg-gray-700 text-gray-400 hover:text-gray-300 hover:bg-gray-600 rounded-lg transition duration-200 focus:outline-none"
+                >
+                    Annuler
+                </button>
+                <button
+                        id="confirmCreate"
+                        class="px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded-lg shadow-md transition duration-200 focus:outline-none"
+                >
+                    Créer
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

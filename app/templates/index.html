@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRanges</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/icon.ico') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stats.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/explorer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/legend.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/matrix.css') }}">
+</head>
+<body class="bg-gray-800 text-gray-200 h-screen">
+
+<div class="flex h-full w-full overflow-hidden">
+    {% include 'partial/explorer.html' %}
+
+    <div id="mainContent" class="hidden flex-1 flex flex-col">
+        <!-- Tabs -->
+        <div class="tab-container flex justify-center space-x-4 p-1">
+            <button id="tabMatrix"
+                    class="tab-button text-gray font-semibold relative bg-transparent hover:bg-gray-800 rounded px-4 py-2">
+                <i class="fas fa-th mr-2"></i>Matrice de range
+            </button>
+            <button id="tabEquity"
+                    class="tab-button text-gray font-semibold relative bg-transparent hover:bg-gray-800 rounded px-4 py-2">
+                <i class="fas fa-balance-scale mr-2"></i>Calcul d'équité
+            </button>
+            <button id="tabStats"
+                    class="tab-button text-gray font-semibold relative bg-transparent hover:bg-gray-800 rounded px-4 py-2">
+                <i class="fas fa-chart-bar mr-2"></i>Statistiques
+            </button>
+            <button id="tabTraining"
+                    class="tab-button text-gray font-semibold relative bg-transparent hover:bg-gray-800 rounded px-4 py-2">
+                <i class="fas fa-dumbbell mr-2"></i>Entraînement
+            </button>
+        </div>
+
+        <div id="contentMatrix" class="flex-1 p-6 overflow-auto flex items-center justify-center">
+            {% include 'partial/matrix.html' %}
+        </div>
+        <div id="contentEquity" class="flex-1 p-6 hidden overflow-auto flex items-center justify-center">
+            {% include 'partial/equity.html' %}
+        </div>
+        <div id="contentStats" class="flex-1 p-6 hidden overflow-auto flex items-center justify-center">
+            {% include 'partial/stats.html' %}
+        </div>
+        <div id="contentTraining" class="flex-1 p-6 hidden overflow-auto flex items-center justify-center">
+            {% include 'partial/training.html' %}
+        </div>
+    </div>
+
+    <div id="welcomeScreen" class="flex-1 flex justify-center items-center text-gray-400">
+        <h1 class="text-xl">Stockez et analysez vos ranges via l'explorateur.</h1>
+    </div>
+</div>
+
+{% include 'partial/modals/create_item_modal.html' %}
+{% include 'partial/modals/edit_item_modal.html' %}
+{% include 'partial/modals/edit_legend_modal.html' %}
+{% include 'partial/modals/create_legend_modal.html' %}
+<script type="module" src="{{ url_for('static', filename='js/app.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

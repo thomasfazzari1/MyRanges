@@ -1,0 +1,218 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-size: 200% 200%;
+}
+
+.bg-blue-600 {
+    background-color: #202c44 !important;
+}
+
+.bg-blue-600:hover, .hover\:bg-blue-700:hover {
+    background-color: #253352 !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-select {
+    user-select: none;
+}
+
+.action-icon {
+   padding: 0.5rem;
+   border-radius: 0.375rem;
+   font-size: 0.875rem;
+   cursor: pointer;
+   transition: all 200ms;
+   background: transparent;
+}
+
+.edit-icon {
+   color: rgb(96 165 250);
+}
+
+.edit-icon:hover {
+   color: rgb(147 197 253);
+   background: rgba(96, 165, 250, 0.1);
+   transform: scale(1.05);
+}
+
+.delete-icon {
+   color: rgb(248 113 113);
+}
+
+.delete-icon:hover {
+   color: rgb(252 165 165);
+   background: rgba(248, 113, 113, 0.1);
+   transform: scale(1.05);
+}
+
+button {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover:not(.tab-button) {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+}
+
+button:active::after {
+    width: 200px;
+    height: 200px;
+}
+
+.tab-container {
+    background: #131928;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(55, 65, 81, 0.5);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    height: 64px;
+    align-items: center;
+}
+
+.tab-button {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    color: rgb(156, 163, 175);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none !important;
+}
+
+.tab-button::before,
+.tab-button::after {
+    display: none !important;
+}
+
+.tab-button[disabled],
+.tab-button:disabled {
+    opacity: 0.5;
+    text-decoration: none !important;
+    pointer-events: none;
+}
+
+.tab-button *,
+.tab-button > * {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.tab-button:not(.active):hover {
+    color: rgb(209, 213, 219);
+    background: rgba(55, 65, 81, 0.3);
+}
+
+.tab-button.active {
+    color: rgb(96, 165, 250);
+    background: rgba(37, 99, 235, 0.1);
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+.tab-button i {
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-button:hover i {
+    transform: translateY(-1px);
+}
+
+.tab-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5);
+}
+
+.tab-button:focus:not(:focus-visible) {
+    box-shadow: none;
+}
+
+#contentMatrix,
+#contentEquity,
+#contentTraining,
+#contentStats {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    display: none;
+}
+
+#contentMatrix.active,
+#contentEquity.active,
+#contentStats.active,
+#contentTraining.active {
+    opacity: 1;
+    transform: translateY(0);
+    display: block;
+}
+
+.bg-gradient-to-b {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bg-gradient-to-b:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+#currentPath {
+    background-color: rgba(31, 41, 55, 0.8);
+}
+
+@media (max-width: 768px) {
+    .tab-container {
+        padding: 0.25rem;
+        gap: 0.25rem;
+    }
+
+    .tab-button {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.75rem;
+    }
+
+    .tab-button i {
+        font-size: 0.875rem;
+    }
+}

@@ -1,0 +1,73 @@
+<div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl">
+    <div id="equityTab" class="flex flex-col space-y-6">
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                <h3 class="text-lg font-bold text-blue-400 mb-4">Mains</h3>
+                <div id="handInputs" class="space-y-4">
+                    <div class="hand-input flex items-center gap-4">
+                        <input type="text" class="hand flex-1 bg-gray-700 border border-gray-600 rounded p-2 text-white"
+                               placeholder="ex: AhKs" maxlength=4>
+                        <span class="equity-result text-blue-400 font-bold min-w-[80px] text-right"></span>
+                        <button class="remove-hand bg-blue-600 hover:bg-blue-700 text-white rounded px-4 py-1">-
+                        </button>
+                    </div>
+                    <div class="hand-input flex items-center gap-4">
+                        <input type="text" class="hand flex-1 bg-gray-700 border border-gray-600 rounded p-2 text-white"
+                               placeholder="ex: QdJd" maxlength=4>
+                        <span class="equity-result text-blue-400 font-bold min-w-[80px] text-right"></span>
+                        <button class="remove-hand bg-blue-600 hover:bg-blue-700 text-white rounded px-4 py-1">-
+                        </button>
+                    </div>
+                </div>
+                <button id="addHand"
+                        class="mt-4 group relative flex items-center justify-center gap-2 px-4 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg transition-all">
+                    <i class="fas fa-plus text-white/90 group-hover:text-white transition-colors"></i>
+                    <span class="text-sm font-medium text-white/90 group-hover:text-white">Ajouter une main</span>
+                    <div class="absolute inset-0 bg-gradient-to-tr from-blue-600/0 via-blue-600/0 to-blue-400/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </button>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                    <h3 class="text-lg font-bold text-blue-400 mb-4">Board</h3>
+                    <input id="boardInput" type="text"
+                           class="w-full bg-gray-700 border border-gray-600 rounded p-2 text-white"
+                           placeholder="ex : AsKd2h5d6s" maxlength=10>
+                </div>
+
+                <div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                    <h3 class="text-lg font-bold text-blue-400 mb-4">Simulations</h3>
+
+                    <div class="mb-4">
+                        <label for="iterations" class="block text-sm font-medium text-gray-300 mb-2">
+                            Nombre d'itérations
+                        </label>
+                        <input
+                                type="number"
+                                id="iterations"
+                                name="iterations"
+                                value="10000"
+                                min="1000"
+                                max="1000000"
+                                step="1000"
+                                class="w-full bg-gray-700 border border-gray-600 rounded p-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                aria-describedby="iterations-description"
+                        >
+                    </div>
+
+                    <button
+                            id="calculateButton"
+                            class="group relative flex items-center justify-center gap-2 px-4 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg transition-all w-full"
+                            aria-label="Lancer la simulation"
+                    >
+                        <i class="fas fa-calculator text-white/90 group-hover:text-white transition-colors"></i>
+                        <span class="text-sm font-medium text-white/90 group-hover:text-white">
+                        Lancer la simulation
+                    </span>
+                        <div class="absolute inset-0 bg-gradient-to-tr from-green-600/0 via-green-600/0 to-green-400/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

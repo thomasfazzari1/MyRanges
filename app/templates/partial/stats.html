@@ -1,0 +1,63 @@
+<div class="bg-gradient-to-b from-gray-900 to-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 hover:border-gray-600/50 transition-all duration-300">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fas fa-chart-pie text-blue-400"></i>
+                <h3 class="text-lg font-medium text-gray-300">Distribution des Mains</h3>
+            </div>
+            <div class="h-64">
+                <canvas id="handTypeChart"></canvas>
+            </div>
+        </div>
+
+        <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 hover:border-gray-600/50 transition-all duration-300">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fas fa-chart-line text-blue-400"></i>
+                <h3 class="text-lg font-medium text-gray-300">Connectivité</h3>
+            </div>
+            <div class="h-64">
+                <canvas id="connectivityChart"></canvas>
+            </div>
+        </div>
+
+        <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 hover:border-gray-600/50 transition-all duration-300">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fas fa-crown text-blue-400"></i>
+                <h3 class="text-lg font-medium text-gray-300">Cartes Hautes</h3>
+            </div>
+            <div class="h-64">
+                <canvas id="highCardsChart"></canvas>
+            </div>
+        </div>
+
+        <div class="bg-gray-800/50 p-5 rounded-lg border border-gray-700/50 hover:border-gray-600/50 transition-all duration-300">
+            <div class="flex items-center gap-3 mb-6">
+                <i class="fas fa-chart-bar text-blue-400"></i>
+                <h3 class="text-lg font-medium text-gray-300">Résumé</h3>
+            </div>
+            <div class="space-y-4">
+                <div class="space-y-2">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="text-gray-400">Mains jouées</span>
+                        <span id="playedHands" class="text-blue-400 font-medium">0/169</span>
+                    </div>
+                    <div class="h-2 bg-gray-700/50 rounded-full overflow-hidden">
+                        <div id="playedHandsBar" class="h-full bg-blue-500 rounded-full transition-all duration-500"
+                             style="width: 0%"></div>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="text-gray-400">% Range</span>
+                        <span id="playedPercentage" class="text-blue-400 font-medium">0%</span>
+                    </div>
+                    <div class="h-2 bg-gray-700/50 rounded-full overflow-hidden">
+                        <div id="playedPercentageBar"
+                             class="h-full bg-blue-500 rounded-full transition-all duration-500"
+                             style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,86 @@
+#explorerTree .path-content {
+    animation: fadeIn 0.3s ease-out;
+}
+
+#explorerTree div {
+    transition: background-color 0.2s ease;
+}
+
+#explorerTree div:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+#explorerStats {
+    background: rgba(31, 41, 55, 0.8);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    color: rgba(209, 213, 219, 0.9);
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+#explorerStats span {
+    font-size: 0.600rem;
+    color: rgba(156, 163, 175, 1);
+    letter-spacing: 0.03em;
+}
+
+#explorerStats p {
+    margin: 0;
+    font-size: 0.800rem;
+}
+
+#explorerStats .border-b {
+    border-bottom-width: 1px;
+    margin-bottom: 6px;
+}
+
+#explorerStats .flex {
+    margin-bottom: 4px;
+}
+
+.type-btn {
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.type-btn.selected {
+    background-color: #3b82f6;
+    border: 2px solid #2563eb;
+}
+
+.type-btn.selected i {
+    color: #ffffff;
+}
+
+.type-btn.selected span {
+    color: #ffffff;
+}
+
+.type-btn i {
+    transition: color 0.3s;
+}
+
+.type-btn span {
+    transition: color 0.3s;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(31, 41, 55, 0.5);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(59, 130, 246, 0.5);
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(59, 130, 246, 0.7);
+}

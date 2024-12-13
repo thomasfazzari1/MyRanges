@@ -1,0 +1,3509 @@
+{
+  "type": "container",
+  "name": "Mes Ranges",
+  "items": {
+    "Spin & Go - Exemple": {
+      "type": "container",
+      "name": "Spin & Go - Exemple",
+      "items": {
+        "[BB] [10/15 BB] VS Limp": {
+          "type": "range",
+          "name": "BB vs Limp - 10/15 BB",
+          "legend": {
+            "items": [
+              {
+                "color": "#1900a4",
+                "description": "3x Raise / Call vs AI"
+              },
+              {
+                "color": "#4db02c",
+                "description": "Check"
+              },
+              {
+                "color": "#ea0a00",
+                "description": "All in"
+              }
+            ]
+          },
+          "matrix": [
+            [
+              {
+                "display_name": "AA",
+                "treys_name": "AhAd",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "AKs",
+                "treys_name": "AhKh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "AQs",
+                "treys_name": "AhQh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "AJs",
+                "treys_name": "AhJh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "ATs",
+                "treys_name": "AhTh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "A9s",
+                "treys_name": "Ah9h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A8s",
+                "treys_name": "Ah8h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A7s",
+                "treys_name": "Ah7h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A6s",
+                "treys_name": "Ah6h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A5s",
+                "treys_name": "Ah5h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A4s",
+                "treys_name": "Ah4h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A3s",
+                "treys_name": "Ah3h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A2s",
+                "treys_name": "Ah2h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AKo",
+                "treys_name": "AhKd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "KK",
+                "treys_name": "KhKd",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "KQs",
+                "treys_name": "KhQh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "KJs",
+                "treys_name": "KhJh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "KTs",
+                "treys_name": "KhTh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "K9s",
+                "treys_name": "Kh9h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K8s",
+                "treys_name": "Kh8h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K7s",
+                "treys_name": "Kh7h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K6s",
+                "treys_name": "Kh6h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K5s",
+                "treys_name": "Kh5h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K4s",
+                "treys_name": "Kh4h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K3s",
+                "treys_name": "Kh3h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K2s",
+                "treys_name": "Kh2h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AQo",
+                "treys_name": "AhQd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "KQo",
+                "treys_name": "KhQd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "QQ",
+                "treys_name": "QhQd",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "QJs",
+                "treys_name": "QhJh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "QTs",
+                "treys_name": "QhTh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "Q9s",
+                "treys_name": "Qh9h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "Q8s",
+                "treys_name": "Qh8h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "Q7s",
+                "treys_name": "Qh7h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "Q6s",
+                "treys_name": "Qh6h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q5s",
+                "treys_name": "Qh5h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q4s",
+                "treys_name": "Qh4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q3s",
+                "treys_name": "Qh3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q2s",
+                "treys_name": "Qh2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AJo",
+                "treys_name": "AhJd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "KJo",
+                "treys_name": "KhJd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "QJo",
+                "treys_name": "QhJd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "JJ",
+                "treys_name": "JhJd",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "JTs",
+                "treys_name": "JhTh",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "J9s",
+                "treys_name": "Jh9h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "J8s",
+                "treys_name": "Jh8h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "J7s",
+                "treys_name": "Jh7h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J6s",
+                "treys_name": "Jh6h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J5s",
+                "treys_name": "Jh5h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J4s",
+                "treys_name": "Jh4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J3s",
+                "treys_name": "Jh3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J2s",
+                "treys_name": "Jh2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "ATo",
+                "treys_name": "AhTd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "KTo",
+                "treys_name": "KhTd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "QTo",
+                "treys_name": "QhTd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "JTo",
+                "treys_name": "JhTd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "TT",
+                "treys_name": "ThTd",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "T9s",
+                "treys_name": "Th9h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "T8s",
+                "treys_name": "Th8h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "T7s",
+                "treys_name": "Th7h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T6s",
+                "treys_name": "Th6h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T5s",
+                "treys_name": "Th5h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T4s",
+                "treys_name": "Th4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T3s",
+                "treys_name": "Th3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T2s",
+                "treys_name": "Th2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A9o",
+                "treys_name": "Ah9d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K9o",
+                "treys_name": "Kh9d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "Q9o",
+                "treys_name": "Qh9d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J9o",
+                "treys_name": "Jh9d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T9o",
+                "treys_name": "Th9d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "99",
+                "treys_name": "9h9d",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "98s",
+                "treys_name": "9h8h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "97s",
+                "treys_name": "9h7h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "96s",
+                "treys_name": "9h6h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "95s",
+                "treys_name": "9h5h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "94s",
+                "treys_name": "9h4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "93s",
+                "treys_name": "9h3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "92s",
+                "treys_name": "9h2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A8o",
+                "treys_name": "Ah8d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K8o",
+                "treys_name": "Kh8d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "Q8o",
+                "treys_name": "Qh8d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J8o",
+                "treys_name": "Jh8d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T8o",
+                "treys_name": "Th8d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "98o",
+                "treys_name": "9h8d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "88",
+                "treys_name": "8h8d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "87s",
+                "treys_name": "8h7h",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "86s",
+                "treys_name": "8h6h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "85s",
+                "treys_name": "8h5h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "84s",
+                "treys_name": "8h4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "83s",
+                "treys_name": "8h3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "82s",
+                "treys_name": "8h2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A7o",
+                "treys_name": "Ah7d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K7o",
+                "treys_name": "Kh7d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "Q7o",
+                "treys_name": "Qh7d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J7o",
+                "treys_name": "Jh7d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T7o",
+                "treys_name": "Th7d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "97o",
+                "treys_name": "9h7d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "87o",
+                "treys_name": "8h7d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "77",
+                "treys_name": "7h7d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "76s",
+                "treys_name": "7h6h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "75s",
+                "treys_name": "7h5h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "74s",
+                "treys_name": "7h4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "73s",
+                "treys_name": "7h3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "72s",
+                "treys_name": "7h2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A6o",
+                "treys_name": "Ah6d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K6o",
+                "treys_name": "Kh6d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q6o",
+                "treys_name": "Qh6d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J6o",
+                "treys_name": "Jh6d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T6o",
+                "treys_name": "Th6d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "96o",
+                "treys_name": "9h6d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "86o",
+                "treys_name": "8h6d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "76o",
+                "treys_name": "7h6d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "66",
+                "treys_name": "6h6d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "65s",
+                "treys_name": "6h5h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "64s",
+                "treys_name": "6h4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "63s",
+                "treys_name": "6h3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "62s",
+                "treys_name": "6h2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A5o",
+                "treys_name": "Ah5d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K5o",
+                "treys_name": "Kh5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q5o",
+                "treys_name": "Qh5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J5o",
+                "treys_name": "Jh5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T5o",
+                "treys_name": "Th5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "95o",
+                "treys_name": "9h5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "85o",
+                "treys_name": "8h5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "75o",
+                "treys_name": "7h5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "65o",
+                "treys_name": "6h5d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "55",
+                "treys_name": "5h5d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "54s",
+                "treys_name": "5h4h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "53s",
+                "treys_name": "5h3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "52s",
+                "treys_name": "5h2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A4o",
+                "treys_name": "Ah4d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K4o",
+                "treys_name": "Kh4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q4o",
+                "treys_name": "Qh4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J4o",
+                "treys_name": "Jh4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T4o",
+                "treys_name": "Th4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "94o",
+                "treys_name": "9h4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "84o",
+                "treys_name": "8h4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "74o",
+                "treys_name": "7h4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "64o",
+                "treys_name": "6h4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "54o",
+                "treys_name": "5h4d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "44",
+                "treys_name": "4h4d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "43s",
+                "treys_name": "4h3h",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "42s",
+                "treys_name": "4h2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A3o",
+                "treys_name": "Ah3d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K3o",
+                "treys_name": "Kh3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q3o",
+                "treys_name": "Qh3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J3o",
+                "treys_name": "Jh3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T3o",
+                "treys_name": "Th3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "93o",
+                "treys_name": "9h3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "83o",
+                "treys_name": "8h3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "73o",
+                "treys_name": "7h3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "63o",
+                "treys_name": "6h3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "53o",
+                "treys_name": "5h3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "43o",
+                "treys_name": "4h3d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "33",
+                "treys_name": "3h3d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "32s",
+                "treys_name": "3h2h",
+                "colors": [
+                  "#4db02c"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A2o",
+                "treys_name": "Ah2d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "K2o",
+                "treys_name": "Kh2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "Q2o",
+                "treys_name": "Qh2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "J2o",
+                "treys_name": "Jh2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "T2o",
+                "treys_name": "Th2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "92o",
+                "treys_name": "9h2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "82o",
+                "treys_name": "8h2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "72o",
+                "treys_name": "7h2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "62o",
+                "treys_name": "6h2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "52o",
+                "treys_name": "5h2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "42o",
+                "treys_name": "4h2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "32o",
+                "treys_name": "3h2d",
+                "colors": [
+                  "#4db02c"
+                ]
+              },
+              {
+                "display_name": "22",
+                "treys_name": "2h2d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              }
+            ]
+          ]
+        },
+        "[BB] [15 BB +] VS 3x Raise": {
+          "type": "range",
+          "name": "BB vs SB 15 BB",
+          "legend": {
+            "items": [
+              {
+                "color": "#1900a4",
+                "description": "Re-Raise 2.5x"
+              },
+              {
+                "color": "#14ad00",
+                "description": "Call"
+              },
+              {
+                "color": "#ea0a00",
+                "description": "All In"
+              }
+            ]
+          },
+          "matrix": [
+            [
+              {
+                "display_name": "AA",
+                "treys_name": "AhAd",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "AKs",
+                "treys_name": "AhKh",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "AQs",
+                "treys_name": "AhQh",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "AJs",
+                "treys_name": "AhJh",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "ATs",
+                "treys_name": "AhTh",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "A9s",
+                "treys_name": "Ah9h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "A8s",
+                "treys_name": "Ah8h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "A7s",
+                "treys_name": "Ah7h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "A6s",
+                "treys_name": "Ah6h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "A5s",
+                "treys_name": "Ah5h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "A4s",
+                "treys_name": "Ah4h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "A3s",
+                "treys_name": "Ah3h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "A2s",
+                "treys_name": "Ah2h",
+                "colors": [
+                  "#14ad00"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AKo",
+                "treys_name": "AhKd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "KK",
+                "treys_name": "KhKd",
+                "colors": [
+                  "#1900a4"
+                ]
+              },
+              {
+                "display_name": "KQs",
+                "treys_name": "KhQh",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "KJs",
+                "treys_name": "KhJh",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "KTs",
+                "treys_name": "KhTh",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K9s",
+                "treys_name": "Kh9h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K8s",
+                "treys_name": "Kh8h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K7s",
+                "treys_name": "Kh7h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K6s",
+                "treys_name": "Kh6h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K5s",
+                "treys_name": "Kh5h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K4s",
+                "treys_name": "Kh4h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K3s",
+                "treys_name": "Kh3h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K2s",
+                "treys_name": "Kh2h",
+                "colors": [
+                  "#14ad00"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AQo",
+                "treys_name": "AhQd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "KQo",
+                "treys_name": "KhQd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "QQ",
+                "treys_name": "QhQd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "QJs",
+                "treys_name": "QhJh",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "QTs",
+                "treys_name": "QhTh",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q9s",
+                "treys_name": "Qh9h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q8s",
+                "treys_name": "Qh8h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q7s",
+                "treys_name": "Qh7h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q6s",
+                "treys_name": "Qh6h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q5s",
+                "treys_name": "Qh5h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q4s",
+                "treys_name": "Qh4h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q3s",
+                "treys_name": "Qh3h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q2s",
+                "treys_name": "Qh2h",
+                "colors": [
+                  "#14ad00"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AJo",
+                "treys_name": "AhJd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "KJo",
+                "treys_name": "KhJd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "QJo",
+                "treys_name": "QhJd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "JJ",
+                "treys_name": "JhJd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "JTs",
+                "treys_name": "JhTh",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "J9s",
+                "treys_name": "Jh9h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "J8s",
+                "treys_name": "Jh8h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "J7s",
+                "treys_name": "Jh7h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "J6s",
+                "treys_name": "Jh6h",
+                "colors": []
+              },
+              {
+                "display_name": "J5s",
+                "treys_name": "Jh5h",
+                "colors": []
+              },
+              {
+                "display_name": "J4s",
+                "treys_name": "Jh4h",
+                "colors": []
+              },
+              {
+                "display_name": "J3s",
+                "treys_name": "Jh3h",
+                "colors": []
+              },
+              {
+                "display_name": "J2s",
+                "treys_name": "Jh2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "ATo",
+                "treys_name": "AhTd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "KTo",
+                "treys_name": "KhTd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "QTo",
+                "treys_name": "QhTd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "JTo",
+                "treys_name": "JhTd",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "TT",
+                "treys_name": "ThTd",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "T9s",
+                "treys_name": "Th9h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "T8s",
+                "treys_name": "Th8h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "T7s",
+                "treys_name": "Th7h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "T6s",
+                "treys_name": "Th6h",
+                "colors": []
+              },
+              {
+                "display_name": "T5s",
+                "treys_name": "Th5h",
+                "colors": []
+              },
+              {
+                "display_name": "T4s",
+                "treys_name": "Th4h",
+                "colors": []
+              },
+              {
+                "display_name": "T3s",
+                "treys_name": "Th3h",
+                "colors": []
+              },
+              {
+                "display_name": "T2s",
+                "treys_name": "Th2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A9o",
+                "treys_name": "Ah9d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K9o",
+                "treys_name": "Kh9d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q9o",
+                "treys_name": "Qh9d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "J9o",
+                "treys_name": "Jh9d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "T9o",
+                "treys_name": "Th9d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "99",
+                "treys_name": "9h9d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "98s",
+                "treys_name": "9h8h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "97s",
+                "treys_name": "9h7h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "96s",
+                "treys_name": "9h6h",
+                "colors": []
+              },
+              {
+                "display_name": "95s",
+                "treys_name": "9h5h",
+                "colors": []
+              },
+              {
+                "display_name": "94s",
+                "treys_name": "9h4h",
+                "colors": []
+              },
+              {
+                "display_name": "93s",
+                "treys_name": "9h3h",
+                "colors": []
+              },
+              {
+                "display_name": "92s",
+                "treys_name": "9h2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A8o",
+                "treys_name": "Ah8d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K8o",
+                "treys_name": "Kh8d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "Q8o",
+                "treys_name": "Qh8d",
+                "colors": []
+              },
+              {
+                "display_name": "J8o",
+                "treys_name": "Jh8d",
+                "colors": []
+              },
+              {
+                "display_name": "T8o",
+                "treys_name": "Th8d",
+                "colors": []
+              },
+              {
+                "display_name": "98o",
+                "treys_name": "9h8d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "88",
+                "treys_name": "8h8d",
+                "colors": [
+                  "#ea0a00"
+                ]
+              },
+              {
+                "display_name": "87s",
+                "treys_name": "8h7h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "86s",
+                "treys_name": "8h6h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "85s",
+                "treys_name": "8h5h",
+                "colors": []
+              },
+              {
+                "display_name": "84s",
+                "treys_name": "8h4h",
+                "colors": []
+              },
+              {
+                "display_name": "83s",
+                "treys_name": "8h3h",
+                "colors": []
+              },
+              {
+                "display_name": "82s",
+                "treys_name": "8h2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A7o",
+                "treys_name": "Ah7d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K7o",
+                "treys_name": "Kh7d",
+                "colors": []
+              },
+              {
+                "display_name": "Q7o",
+                "treys_name": "Qh7d",
+                "colors": []
+              },
+              {
+                "display_name": "J7o",
+                "treys_name": "Jh7d",
+                "colors": []
+              },
+              {
+                "display_name": "T7o",
+                "treys_name": "Th7d",
+                "colors": []
+              },
+              {
+                "display_name": "97o",
+                "treys_name": "9h7d",
+                "colors": []
+              },
+              {
+                "display_name": "87o",
+                "treys_name": "8h7d",
+                "colors": []
+              },
+              {
+                "display_name": "77",
+                "treys_name": "7h7d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "76s",
+                "treys_name": "7h6h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "75s",
+                "treys_name": "7h5h",
+                "colors": []
+              },
+              {
+                "display_name": "74s",
+                "treys_name": "7h4h",
+                "colors": []
+              },
+              {
+                "display_name": "73s",
+                "treys_name": "7h3h",
+                "colors": []
+              },
+              {
+                "display_name": "72s",
+                "treys_name": "7h2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A6o",
+                "treys_name": "Ah6d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K6o",
+                "treys_name": "Kh6d",
+                "colors": []
+              },
+              {
+                "display_name": "Q6o",
+                "treys_name": "Qh6d",
+                "colors": []
+              },
+              {
+                "display_name": "J6o",
+                "treys_name": "Jh6d",
+                "colors": []
+              },
+              {
+                "display_name": "T6o",
+                "treys_name": "Th6d",
+                "colors": []
+              },
+              {
+                "display_name": "96o",
+                "treys_name": "9h6d",
+                "colors": []
+              },
+              {
+                "display_name": "86o",
+                "treys_name": "8h6d",
+                "colors": []
+              },
+              {
+                "display_name": "76o",
+                "treys_name": "7h6d",
+                "colors": []
+              },
+              {
+                "display_name": "66",
+                "treys_name": "6h6d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "65s",
+                "treys_name": "6h5h",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "64s",
+                "treys_name": "6h4h",
+                "colors": []
+              },
+              {
+                "display_name": "63s",
+                "treys_name": "6h3h",
+                "colors": []
+              },
+              {
+                "display_name": "62s",
+                "treys_name": "6h2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A5o",
+                "treys_name": "Ah5d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K5o",
+                "treys_name": "Kh5d",
+                "colors": []
+              },
+              {
+                "display_name": "Q5o",
+                "treys_name": "Qh5d",
+                "colors": []
+              },
+              {
+                "display_name": "J5o",
+                "treys_name": "Jh5d",
+                "colors": []
+              },
+              {
+                "display_name": "T5o",
+                "treys_name": "Th5d",
+                "colors": []
+              },
+              {
+                "display_name": "95o",
+                "treys_name": "9h5d",
+                "colors": []
+              },
+              {
+                "display_name": "85o",
+                "treys_name": "8h5d",
+                "colors": []
+              },
+              {
+                "display_name": "75o",
+                "treys_name": "7h5d",
+                "colors": []
+              },
+              {
+                "display_name": "65o",
+                "treys_name": "6h5d",
+                "colors": []
+              },
+              {
+                "display_name": "55",
+                "treys_name": "5h5d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "54s",
+                "treys_name": "5h4h",
+                "colors": []
+              },
+              {
+                "display_name": "53s",
+                "treys_name": "5h3h",
+                "colors": []
+              },
+              {
+                "display_name": "52s",
+                "treys_name": "5h2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A4o",
+                "treys_name": "Ah4d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K4o",
+                "treys_name": "Kh4d",
+                "colors": []
+              },
+              {
+                "display_name": "Q4o",
+                "treys_name": "Qh4d",
+                "colors": []
+              },
+              {
+                "display_name": "J4o",
+                "treys_name": "Jh4d",
+                "colors": []
+              },
+              {
+                "display_name": "T4o",
+                "treys_name": "Th4d",
+                "colors": []
+              },
+              {
+                "display_name": "94o",
+                "treys_name": "9h4d",
+                "colors": []
+              },
+              {
+                "display_name": "84o",
+                "treys_name": "8h4d",
+                "colors": []
+              },
+              {
+                "display_name": "74o",
+                "treys_name": "7h4d",
+                "colors": []
+              },
+              {
+                "display_name": "64o",
+                "treys_name": "6h4d",
+                "colors": []
+              },
+              {
+                "display_name": "54o",
+                "treys_name": "5h4d",
+                "colors": []
+              },
+              {
+                "display_name": "44",
+                "treys_name": "4h4d",
+                "colors": []
+              },
+              {
+                "display_name": "43s",
+                "treys_name": "4h3h",
+                "colors": []
+              },
+              {
+                "display_name": "42s",
+                "treys_name": "4h2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A3o",
+                "treys_name": "Ah3d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K3o",
+                "treys_name": "Kh3d",
+                "colors": []
+              },
+              {
+                "display_name": "Q3o",
+                "treys_name": "Qh3d",
+                "colors": []
+              },
+              {
+                "display_name": "J3o",
+                "treys_name": "Jh3d",
+                "colors": []
+              },
+              {
+                "display_name": "T3o",
+                "treys_name": "Th3d",
+                "colors": []
+              },
+              {
+                "display_name": "93o",
+                "treys_name": "9h3d",
+                "colors": []
+              },
+              {
+                "display_name": "83o",
+                "treys_name": "8h3d",
+                "colors": []
+              },
+              {
+                "display_name": "73o",
+                "treys_name": "7h3d",
+                "colors": []
+              },
+              {
+                "display_name": "63o",
+                "treys_name": "6h3d",
+                "colors": []
+              },
+              {
+                "display_name": "53o",
+                "treys_name": "5h3d",
+                "colors": []
+              },
+              {
+                "display_name": "43o",
+                "treys_name": "4h3d",
+                "colors": []
+              },
+              {
+                "display_name": "33",
+                "treys_name": "3h3d",
+                "colors": []
+              },
+              {
+                "display_name": "32s",
+                "treys_name": "3h2h",
+                "colors": []
+              }
+            ],
+            [
+              {
+                "display_name": "A2o",
+                "treys_name": "Ah2d",
+                "colors": [
+                  "#14ad00"
+                ]
+              },
+              {
+                "display_name": "K2o",
+                "treys_name": "Kh2d",
+                "colors": []
+              },
+              {
+                "display_name": "Q2o",
+                "treys_name": "Qh2d",
+                "colors": []
+              },
+              {
+                "display_name": "J2o",
+                "treys_name": "Jh2d",
+                "colors": []
+              },
+              {
+                "display_name": "T2o",
+                "treys_name": "Th2d",
+                "colors": []
+              },
+              {
+                "display_name": "92o",
+                "treys_name": "9h2d",
+                "colors": []
+              },
+              {
+                "display_name": "82o",
+                "treys_name": "8h2d",
+                "colors": []
+              },
+              {
+                "display_name": "72o",
+                "treys_name": "7h2d",
+                "colors": []
+              },
+              {
+                "display_name": "62o",
+                "treys_name": "6h2d",
+                "colors": []
+              },
+              {
+                "display_name": "52o",
+                "treys_name": "5h2d",
+                "colors": []
+              },
+              {
+                "display_name": "42o",
+                "treys_name": "4h2d",
+                "colors": []
+              },
+              {
+                "display_name": "32o",
+                "treys_name": "3h2d",
+                "colors": []
+              },
+              {
+                "display_name": "22",
+                "treys_name": "2h2d",
+                "colors": []
+              }
+            ]
+          ]
+        },
+        "[SB] [10/15 BB]": {
+          "type": "range",
+          "name": "[10/15 BB] SB",
+          "legend": {
+            "items": [
+              {
+                "color": "#1900a5",
+                "description": "Raise / Call AI / AI vs NAI"
+              },
+              {
+                "color": "#604798",
+                "description": "Limp / Fold vs AI / Call vs 3x"
+              },
+              {
+                "color": "#4aaa2a",
+                "description": "Limp / Fold vs Iso"
+              },
+              {
+                "color": "#ea0701",
+                "description": "All In"
+              }
+            ]
+          },
+          "matrix": [
+            [
+              {
+                "display_name": "AA",
+                "treys_name": "AhAd",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "AKs",
+                "treys_name": "AhKh",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "AQs",
+                "treys_name": "AhQh",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "AJs",
+                "treys_name": "AhJh",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "ATs",
+                "treys_name": "AhTh",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "A9s",
+                "treys_name": "Ah9h",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "A8s",
+                "treys_name": "Ah8h",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "A7s",
+                "treys_name": "Ah7h",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "A6s",
+                "treys_name": "Ah6h",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "A5s",
+                "treys_name": "Ah5h",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "A4s",
+                "treys_name": "Ah4h",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "A3s",
+                "treys_name": "Ah3h",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "A2s",
+                "treys_name": "Ah2h",
+                "colors": [
+                  "#ea0701"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AKo",
+                "treys_name": "AhKd",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "KK",
+                "treys_name": "KhKd",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "KQs",
+                "treys_name": "KhQh",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "KJs",
+                "treys_name": "KhJh",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "KTs",
+                "treys_name": "KhTh",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "K9s",
+                "treys_name": "Kh9h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K8s",
+                "treys_name": "Kh8h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K7s",
+                "treys_name": "Kh7h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K6s",
+                "treys_name": "Kh6h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K5s",
+                "treys_name": "Kh5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K4s",
+                "treys_name": "Kh4h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K3s",
+                "treys_name": "Kh3h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K2s",
+                "treys_name": "Kh2h",
+                "colors": [
+                  "#604798"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AQo",
+                "treys_name": "AhQd",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "KQo",
+                "treys_name": "KhQd",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "QQ",
+                "treys_name": "QhQd",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "QJs",
+                "treys_name": "QhJh",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "QTs",
+                "treys_name": "QhTh",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q9s",
+                "treys_name": "Qh9h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q8s",
+                "treys_name": "Qh8h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q7s",
+                "treys_name": "Qh7h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q6s",
+                "treys_name": "Qh6h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q5s",
+                "treys_name": "Qh5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q4s",
+                "treys_name": "Qh4h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q3s",
+                "treys_name": "Qh3h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q2s",
+                "treys_name": "Qh2h",
+                "colors": [
+                  "#604798"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "AJo",
+                "treys_name": "AhJd",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "KJo",
+                "treys_name": "KhJd",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "QJo",
+                "treys_name": "QhJd",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "JJ",
+                "treys_name": "JhJd",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "JTs",
+                "treys_name": "JhTh",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J9s",
+                "treys_name": "Jh9h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J8s",
+                "treys_name": "Jh8h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J7s",
+                "treys_name": "Jh7h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J6s",
+                "treys_name": "Jh6h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J5s",
+                "treys_name": "Jh5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J4s",
+                "treys_name": "Jh4h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J3s",
+                "treys_name": "Jh3h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J2s",
+                "treys_name": "Jh2h",
+                "colors": [
+                  "#604798"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "ATo",
+                "treys_name": "AhTd",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "KTo",
+                "treys_name": "KhTd",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "QTo",
+                "treys_name": "QhTd",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "JTo",
+                "treys_name": "JhTd",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "TT",
+                "treys_name": "ThTd",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "T9s",
+                "treys_name": "Th9h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "T8s",
+                "treys_name": "Th8h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "T7s",
+                "treys_name": "Th7h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "T6s",
+                "treys_name": "Th6h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "T5s",
+                "treys_name": "Th5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "T4s",
+                "treys_name": "Th4h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T3s",
+                "treys_name": "Th3h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T2s",
+                "treys_name": "Th2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A9o",
+                "treys_name": "Ah9d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "K9o",
+                "treys_name": "Kh9d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q9o",
+                "treys_name": "Qh9d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J9o",
+                "treys_name": "Jh9d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "T9o",
+                "treys_name": "Th9d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "99",
+                "treys_name": "9h9d",
+                "colors": [
+                  "#1900a5"
+                ]
+              },
+              {
+                "display_name": "98s",
+                "treys_name": "9h8h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "97s",
+                "treys_name": "9h7h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "96s",
+                "treys_name": "9h6h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "95s",
+                "treys_name": "9h5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "94s",
+                "treys_name": "9h4h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "93s",
+                "treys_name": "9h3h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "92s",
+                "treys_name": "9h2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A8o",
+                "treys_name": "Ah8d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "K8o",
+                "treys_name": "Kh8d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q8o",
+                "treys_name": "Qh8d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J8o",
+                "treys_name": "Jh8d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "T8o",
+                "treys_name": "Th8d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "98o",
+                "treys_name": "9h8d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "88",
+                "treys_name": "8h8d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "87s",
+                "treys_name": "8h7h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "86s",
+                "treys_name": "8h6h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "85s",
+                "treys_name": "8h5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "84s",
+                "treys_name": "8h4h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "83s",
+                "treys_name": "8h3h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "82s",
+                "treys_name": "8h2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A7o",
+                "treys_name": "Ah7d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "K7o",
+                "treys_name": "Kh7d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q7o",
+                "treys_name": "Qh7d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "J7o",
+                "treys_name": "Jh7d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T7o",
+                "treys_name": "Th7d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "97o",
+                "treys_name": "9h7d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "87o",
+                "treys_name": "8h7d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "77",
+                "treys_name": "7h7d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "76s",
+                "treys_name": "7h6h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "75s",
+                "treys_name": "7h5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "74s",
+                "treys_name": "7h4h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "73s",
+                "treys_name": "7h3h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "72s",
+                "treys_name": "7h2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A6o",
+                "treys_name": "Ah6d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K6o",
+                "treys_name": "Kh6d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "Q6o",
+                "treys_name": "Qh6d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "J6o",
+                "treys_name": "Jh6d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T6o",
+                "treys_name": "Th6d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "96o",
+                "treys_name": "9h6d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "86o",
+                "treys_name": "8h6d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "76o",
+                "treys_name": "7h6d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "66",
+                "treys_name": "6h6d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "65s",
+                "treys_name": "6h5h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "64s",
+                "treys_name": "6h4h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "63s",
+                "treys_name": "6h3h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "62s",
+                "treys_name": "6h2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A5o",
+                "treys_name": "Ah5d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K5o",
+                "treys_name": "Kh5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "Q5o",
+                "treys_name": "Qh5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "J5o",
+                "treys_name": "Jh5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T5o",
+                "treys_name": "Th5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "95o",
+                "treys_name": "9h5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "85o",
+                "treys_name": "8h5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "75o",
+                "treys_name": "7h5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "65o",
+                "treys_name": "6h5d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "55",
+                "treys_name": "5h5d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "54s",
+                "treys_name": "5h4h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "53s",
+                "treys_name": "5h3h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "52s",
+                "treys_name": "5h2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A4o",
+                "treys_name": "Ah4d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K4o",
+                "treys_name": "Kh4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "Q4o",
+                "treys_name": "Qh4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "J4o",
+                "treys_name": "Jh4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T4o",
+                "treys_name": "Th4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "94o",
+                "treys_name": "9h4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "84o",
+                "treys_name": "8h4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "74o",
+                "treys_name": "7h4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "64o",
+                "treys_name": "6h4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "54o",
+                "treys_name": "5h4d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "44",
+                "treys_name": "4h4d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "43s",
+                "treys_name": "4h3h",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "42s",
+                "treys_name": "4h2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A3o",
+                "treys_name": "Ah3d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K3o",
+                "treys_name": "Kh3d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "Q3o",
+                "treys_name": "Qh3d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "J3o",
+                "treys_name": "Jh3d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T3o",
+                "treys_name": "Th3d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "93o",
+                "treys_name": "9h3d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "83o",
+                "treys_name": "8h3d",
+                "colors": []
+              },
+              {
+                "display_name": "73o",
+                "treys_name": "7h3d",
+                "colors": []
+              },
+              {
+                "display_name": "63o",
+                "treys_name": "6h3d",
+                "colors": []
+              },
+              {
+                "display_name": "53o",
+                "treys_name": "5h3d",
+                "colors": []
+              },
+              {
+                "display_name": "43o",
+                "treys_name": "4h3d",
+                "colors": []
+              },
+              {
+                "display_name": "33",
+                "treys_name": "3h3d",
+                "colors": [
+                  "#ea0701"
+                ]
+              },
+              {
+                "display_name": "32s",
+                "treys_name": "3h2h",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              }
+            ],
+            [
+              {
+                "display_name": "A2o",
+                "treys_name": "Ah2d",
+                "colors": [
+                  "#604798"
+                ]
+              },
+              {
+                "display_name": "K2o",
+                "treys_name": "Kh2d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "Q2o",
+                "treys_name": "Qh2d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "J2o",
+                "treys_name": "Jh2d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "T2o",
+                "treys_name": "Th2d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "92o",
+                "treys_name": "9h2d",
+                "colors": [
+                  "#4aaa2a"
+                ]
+              },
+              {
+                "display_name": "82o",
+                "treys_name": "8h2d",
+                "colors": []
+              },
+              {
+                "display_name": "72o",
+                "treys_name": "7h2d",
+                "colors": []
+              },
+              {
+                "display_name": "62o",
+                "treys_name": "6h2d",
+                "colors": []
+              },
+              {
+                "display_name": "52o",
+                "treys_name": "5h2d",
+                "colors": []
+              },
+              {
+                "display_name": "42o",
+                "treys_name": "4h2d",
+                "colors": []
+              },
+              {
+                "display_name": "32o",
+                "treys_name": "3h2d",
+                "colors": []
+              },
+              {
+                "display_name": "22",
+                "treys_name": "2h2d",
+                "colors": [
+                  "#ea0701"
+                ]
+              }
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

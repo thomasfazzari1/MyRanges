@@ -1,0 +1,39 @@
+<div id="editLegendModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+    <div class="bg-gray-900 p-6 rounded-lg shadow-lg w-[600px]">
+        <h2 class="text-xl font-semibold text-gray-200 mb-4">Modifier la légende</h2>
+        <div class="space-y-4">
+            <div>
+                <label class="text-sm text-gray-400 mb-1 block">Nom de la légende</label>
+                <input
+                        id="legendNameInput"
+                        type="text"
+                        class="bg-gray-800 text-gray-300 font-semibold border border-gray-600 rounded p-2 w-full focus:outline-none focus:border-blue-400"
+                        placeholder="Nom de la légende"
+                />
+            </div>
+            <div>
+                <label class="text-sm text-gray-400 mb-1 block">Mains associées</label>
+                <textarea
+                        id="legendHandsInput"
+                        class="bg-gray-800 text-gray-300 font-semibold border border-gray-600 rounded p-2 w-full h-32 focus:outline-none focus:border-blue-400 resize-none"
+                        placeholder="AA, AKs, AQs..."
+                ></textarea>
+            </div>
+        </div>
+        <div class="flex justify-end space-x-4 mt-4">
+            <button
+                    id="cancelLegendButton"
+                    class="px-4 py-2 bg-gray-700 text-gray-400 hover:text-gray-300 hover:bg-gray-600 rounded-lg transition duration-200 focus:outline-none"
+                    onclick="document.getElementById('editLegendModal').classList.add('hidden')"
+            >
+                Annuler
+            </button>
+            <button
+                    id="saveLegendButton"
+                    class="px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded-lg shadow-md transition duration-200 focus:outline-none"
+            >
+                Enregistrer
+            </button>
+        </div>
+    </div>
+</div>
